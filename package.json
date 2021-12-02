@@ -1,0 +1,38 @@
+{
+  "name": "pasting",
+  "version": "0.3.0",
+  "description": "A website to render html and markdown codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js 127.0.0.1 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viperadnan-git/pasting.git"
+  },
+  "keywords": [
+    "render",
+    "render-html",
+    "render-md",
+    "html",
+    "markdown",
+    "pastebin",
+    "highlighter"
+  ],
+  "author": "viperadnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viperadnan-git/pasting/issues"
+  },
+  "homepage": "https://github.com/viperadnan-git/pasting#readme",
+  "engines": {
+    "npm": "8.1.0",
+    "node": "16.11.0"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "deta": "^1.0.1",
+    "express": "^4.17.1",
+    "marked": "^2.0.3"
+  }
+}
